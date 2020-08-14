@@ -1,0 +1,9 @@
+caption_custom.py
+model_prediction.py
+models.py
+setup.py
+image_caption_ai.egg-info/PKG-INFO
+image_caption_ai.egg-info/SOURCES.txt
+image_caption_ai.egg-info/dependency_links.txt
+image_caption_ai.egg-info/requires.txt
+image_caption_ai.egg-info/top_level.txt
