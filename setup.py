@@ -1,10 +1,19 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-REQUIRED_PACKAGES = ['torch', 'imageio', 'opencv']
+
+REQUIRED_PACKAGES = ['opencv-python',
+                     'numpy',
+                     'matplotlib',
+                     'tqdm',
+                     'Pillow']
 
 setup(
- name="image_caption_ai",
- version="0.1",
- scripts=["models.py", "model_prediction.py", "caption_custom.py"],
- install_requires=REQUIRED_PACKAGES
+    name='Face-Detector-shu244',
+    version='0.1.0',
+    author="Shuhao Lai",
+    author_email="Shuhaolai18@gmail.com",
+    description="Extract faces from images",
+    packages=find_packages(include=['face_detector', 'face_detector.*']),
+    scripts=['api/CustomModelPrediction.py'],
+    install_requires=REQUIRED_PACKAGES
 )
