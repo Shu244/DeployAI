@@ -1,2 +1,5 @@
 *.pyc
 .idea
+dist
+Face_Detector_shu244.egg-info
+face_detector/checkpoints

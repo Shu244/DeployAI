@@ -159,7 +159,7 @@ class FaceDetectorInterface:
 
 
 if __name__=='__main__':
-    img_path = 'input_images/collage.png'
+    img_path = 'example.jpeg'
     interface = FaceDetectorInterface.create(folder='checkpoints')
     res = interface.run(image_path=img_path)
     print(res)
